@@ -1,0 +1,210 @@
+
+
+html {
+	font-size: 100px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#080808;
+	font-family: "Microsoft YaHei"
+}
+
+#top{
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1.3rem;
+	border-bottom: 2px solid #080808;
+	z-index: 999;
+}
+
+.topIcon{
+	margin-left: 10px;
+	width: 1rem;
+	height: 1rem;
+}
+
+Title{
+	margin-left: 10px;
+	font-size: 0.4rem;
+	font-weight: 600;
+	color: #e9967f;
+}
+
+.container {
+	position: relative;
+	max-width: 720px;
+	margin: 0 auto;
+	background-color:#080808;
+}
+
+.kefu a{
+	position: fixed;
+	top: 13.5%;
+	right: 3.4%;
+	width: 15%;
+	height: 11%;
+	background-image: url("../imgs/customer\ service.png");
+	background-size: 100% 100%;
+	z-index: 999;
+	-webkit-animation: myfirst 1s infinite;
+	animation: myfirst 1s infinite;
+}
+
+.ffacebook a{
+    position: absolute;
+    top: 78%;
+    left: 1%;
+    width: 30%;
+    height: 0.95rem;
+    background-image: url(../imgs/FB.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.yyoutube a{
+    position: absolute;
+    top: 78%;
+    left: 66%;
+    width: 30%;
+    height: 0.95rem;
+    background-image: url(../imgs/YT.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.ttelegram a{
+    position: absolute;
+    top: 78%;
+    left: 33.5%;
+    width: 30%;
+    height: 0.95rem;
+    background-image: url(../imgs/tl.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container .downBtn{
+	position: absolute;
+	top: 33%;
+	left: 25%;
+	width: 50%;
+	height: 4.4%;
+	background-image: url("../imgs/down.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-webkit-animation: myfirst 1s infinite;
+	animation: myfirst 1s infinite;
+}
+
+.downBtn1 a{
+	position: absolute;
+	top: 34.5%;
+	width: 100%;
+	height: 12%;
+	background-image: url("../imgs/telegram.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+.downBtn .online{
+	position: absolute;
+	top: -3.6rem;
+	right: -1rem;
+	width: 2rem;
+	height: 1rem;
+	/*background-image: url("../img/bg_online.png");*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.features {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.features .border {
+  position: absolute;
+  top: 0;
+  left: -1.4267rem;
+  z-index: 999;
+  width: 104%;
+}
+.features .swiper-box {
+  width: 93%;
+  height: 2%;
+  margin-top: -147%;
+  margin-left: 1.5%;
+  border-radius: 0.1067rem;
+  overflow: hidden;
+}
+
+.features .swiper-box .swiper-features {
+  width: 100%;
+  height: 100%;
+}
+.features .swiper-box .swiper-features .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  background-color: #87ceeb;
+}
+.features .swiper-box .swiper-features .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.container .downNum{
+	position: absolute;
+	top: 45.7%;
+	right: 14%;
+	width: 40%;
+	height: 1rem;
+	font-size: 0.44rem;
+	text-align: center;
+	align-items: 1rem;
+	color: #fff;
+}
+
+.container .footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 0.5rem;
+	color: #ffffff;
+}
+
+.footer p{
+	padding: 0;
+	margin: 0;
+}
+
+@-webkit-keyframes myfirst {
+	from {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(0.9);
+	}
+	to {
+	  transform: scale(1);
+	}
+  }
+  @keyframes myfirst {
+	from {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(0.9);
+	}
+	to {
+	  transform: scale(1);
+	}
+  }
